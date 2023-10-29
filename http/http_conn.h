@@ -83,6 +83,7 @@ private:
     void unmap();
 
     bool add_response(const char *format, ...);
+    bool add_content(const char *content);
     bool add_status_line(int status, const char *title);
     bool add_headers(int content_length);
     bool add_content_type();
@@ -121,7 +122,7 @@ private:
     int cgi;
     char *m_string;
     int bytes_to_send;
-    int bytes_have_read;
+    int bytes_have_send;
     char *doc_root;
     map<string ,string > m_users;
     int m_TRIGMode;
