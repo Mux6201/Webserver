@@ -26,7 +26,7 @@ public:
 
     time_t expire;
     client_data *user_data;
-
+    //callback function
     void (*cb_func)(client_data *);
 };
 

@@ -19,4 +19,4 @@ add_executable(webserver
         log/block_queue.h
         log/log.cpp
         log/log.h
-        sql/sql_conn_pool.h sql/sql_conn_pool.cpp threadpool/threadpool.h threadpool/threadpool.h threadpool/threadpool.cpp timer/lst_timer.h timer/lst_timer.h timer/lst_timer.cpp)
+        sql/sql_conn_pool.h sql/sql_conn_pool.cpp threadpool/threadpool.h threadpool/threadpool.h threadpool/threadpool.cpp timer/lst_timer.h timer/lst_timer.h timer/lst_timer.cpp http/http_conn.cpp http/http_conn.cpp)
