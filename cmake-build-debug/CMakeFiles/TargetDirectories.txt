@@ -1,3 +1,0 @@
-/home/ming/cppnet/chap1/webserver/cmake-build-debug/CMakeFiles/webserver.dir
-/home/ming/cppnet/chap1/webserver/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ming/cppnet/chap1/webserver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
